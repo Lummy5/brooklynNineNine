@@ -19,7 +19,7 @@ function Navigation(){
     return (
         <nav>
             <span className=' '> 
-                <h1 onClick={() => setShowMenu(!showMenu)} className="text-xl"><i class="fas fa-bars"></i></h1>
+                <h1 onClick={() => setShowMenu(!showMenu)} className="text-xl p-3"><i class="fas fa-bars"></i></h1>
             </span>
             
             {
